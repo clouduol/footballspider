@@ -7,7 +7,7 @@ def getTitle(url):
 	except HTTPError as e:
 		return None
 	try:
-		bsObj = BeautifulSoup(html.read(),"lxml")
+		bsObj = BeautifulSoup(html,"lxml")
 		title = bsObj.title
 	except AttributeError as e:
 		return None
