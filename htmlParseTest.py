@@ -3,8 +3,24 @@ from bs4 import BeautifulSoup
 import re
 html = urlopen("https://www.dongqiudi.com")
 bsObj = BeautifulSoup(html.read(),"lxml")
-print("parent end")
 
+print("lambda")
+lamb_tags = bsObj.findAll(lambda tag: len(tag.attrs)==4)
+for lamb in lamb_tags:
+	print(lamb)
+print("lambda end")
+
+#print("regular expression")
+#bsObj_top = bsObj.find("div",{"id":"top"})
+#img_list = bsObj_top.findAll("img",{"src":re.compile(r"^.*fastdfs.*$")})
+#for img in img_list:
+#	print(img["src"])
+#	print(img["href"])
+#for img in img_list:
+#	print(img.attrs)
+#	print(img.attrs["href"])
+#print("regular expression end")
+#
 # ***** navigating tree *****
 #print("children and descendants")
 #print("children")
@@ -36,16 +52,17 @@ print("parent end")
 #	except AttributeError as e:
 #		pass
 #print("next_siblings end")
-
-print("parent")
-top1 = bsObj.find("table",{"class":"cell_rank"}).find("span",{"class":"top_1"})
-team_top1 = top1.parent.next_sibling.next_sibling
-wdl_top1 = team_top1.next_sibling.next_sibling
-score_top1 = wdl_top1.next_sibling.next_sibling
-print(team_top1.get_text())
-print(wdl_top1.get_text())
-print(score_top1.get_text())
-
+#
+#print("parent")
+#top1 = bsObj.find("table",{"class":"cell_rank"}).find("span",{"class":"top_1"})
+#team_top1 = top1.parent.next_sibling.next_sibling
+#wdl_top1 = team_top1.next_sibling.next_sibling
+#score_top1 = wdl_top1.next_sibling.next_sibling
+#print(team_top1.get_text())
+#print(wdl_top1.get_text())
+#print(score_top1.get_text())
+#print("parent end")
+#
 # ***** findAll *****
 #print("tag")
 #bsObj_tag = bsObj.findAll({"h1","h2","h3","h4","h5","h6"})
