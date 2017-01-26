@@ -5,16 +5,6 @@ import re
 html = urlopen("file:///home/guoyunlong/workspace/footballspider/index.html")
 bsObj = BeautifulSoup(html, "html.parser")
 
-count = 0
-for child in bsObj.html.body.table.findAll("",limit=6):
-    count=count+1
-    print(count)
-    print(type(child))
-    print(child)
-print(count)
-
-text_list = bsObj.findAll(text=re.compile("team"),limit=1)
-for text in text_list:
-    print(text)
-print(len(text_list))
-
+links = bsObj.findAll("a",{"href":re.compile("^www")})
+for link in links:
+    print(link)

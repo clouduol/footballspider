@@ -35,7 +35,7 @@ print("lambda end")
 #iter_len = 0
 #rank_descendants = bsObj.find("table",{"class":"cell_rank"}).descendants
 #for rank_descendant in rank_descendants:
-#	iter_len=iter_len+1	
+#	iter_len=iter_len+1
 #	print(rank_descendant)
 #print(iter_len)
 #print("children and descendants end")
