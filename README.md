@@ -1,20 +1,27 @@
 # footballspider
 
-# FIEL
+# FILE
 
-scrapingTest.py		hello world in spider
+scrapingTest.py:
+hello world in spider
 
-htmlParseTest.py	parse complicated html,using BeautifulSoup function
+htmlParseTest.py:
+parse complicated html,using BeautifulSoup function
 
-syntaxTest.py		test syntax
+syntaxTest.py:
+test syntax
 
-index.html		test html file
+index.html:
+test html file
 
-externalLinksTest.py	randomly go to another external link from one page, recursively; AND get all external links from one page
+externalLinksTest.py:
+randomly go to another external link from one page, recursively; AND get all external links from one page
 
-scrapyFootballSpider	demo project using scrapy spider framework
+scrapyFootballSpider:
+demo project using scrapy spider framework
 
-imageDownloadTest.py	get all team logo and corresponding team name in the index page of Dongqiudi
+imageDownloadTest.py:
+get all team logo and corresponding team name in the index page of Dongqiudi
 
 # LINKs
 
