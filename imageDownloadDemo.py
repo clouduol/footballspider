@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 import re
 
 # parameter
-downloadDirectory = 'imageDownload'
+downloadDirectory = 'data/imageDownload'
 baseUrl = 'http://img.dongqiudi.com'
 
 def getAbsoluteURL(baseUrl,source):
@@ -46,10 +46,10 @@ def imageRename(imgTag, path):
 
     parentTag=imgTag.parent
     newName=parentTag.get_text()
-    print("old:"+newName)
+    #print("old:"+newName)
     newName=newName.strip()
     newName=newName.strip("\t\r\n")
-    print("new:"+newName)
+    #print("new:"+newName)
 
     os.rename(path,directory+'/'+newName+'.png')
 
