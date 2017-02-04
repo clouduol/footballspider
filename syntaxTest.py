@@ -5,6 +5,6 @@ import re
 html = urlopen("file:///home/guoyunlong/workspace/footballspider/index.html")
 bsObj = BeautifulSoup(html, "html.parser")
 
-links = bsObj.findAll("a",{"href":re.compile("^www")})
+links = bsObj.findAll("",{"href":re.compile("^.*")})
 for link in links:
     print(link)

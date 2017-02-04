@@ -1,3 +1,5 @@
+# parse complicated html
+# using BeautifulSoup function
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 import re
