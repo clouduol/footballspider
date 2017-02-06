@@ -26,6 +26,9 @@ get all team logo and corresponding team name in the index page of Dongqiudi
 rankStoreDemo.py:
 crawl league rank table and store to CSV file, data in the index page of Dongqiudi
 
+emailDemo.py:
+send an email using python
+
 # LINKs
 
 https://www.zhihu.com/question/20899988
@@ -33,3 +36,5 @@ https://www.zhihu.com/question/20899988
 https://github.com/REMitchell/python-scraping
 
 https://docs.python.org/3/library/urllib.html
+
+https://github.com/PyMySQL/PyMySQL
