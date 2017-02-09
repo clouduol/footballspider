@@ -54,8 +54,3 @@ https://github.com/REMitchell/python-scraping
 https://docs.python.org/3/library/urllib.html
 
 https://github.com/PyMySQL/PyMySQL
-
-# ATTENTION:
-	Because of list.remove() method in for statement, the element in the list will be process in sequence list[1,3,5,7,...],But as each list has a length less than 1024 and each list will be processd 10 times, the results are correct.
-	
-	The files include:ImageSpider/dataSpider.py,ImageSpider/specialSpider.py
