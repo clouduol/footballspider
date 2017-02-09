@@ -29,6 +29,22 @@ crawl league rank table and store to CSV file, data in the index page of Dongqiu
 emailDemo.py:
 send an email using python
 
+
+ImageSpider:
+get images from dongqiudi.com
+
+ImageSpider/dataSpider.py:
+get images from https://www.dongqiudi.com/data/
+
+ImageSpider/specialSpider.py:
+get images from https://www.dongqiudi.com/special/
+
+ImageSpider/specialSpider.log:
+special spider log
+
+ImageSpider/spiderAnalysis.txt:
+analyze spider's efficiency
+
 # LINKs
 
 https://www.zhihu.com/question/20899988
