@@ -1,0 +1,25 @@
+# dataSpider.py
+dataSpider:
+pages:	
+start time:	2017-02-07 22:01:51
+end time:	2017-02-07 22:28:29
+number:		115
+average:	4 html/min
+images:
+start time:	2017-02-07 22:01:52
+end time:	2017-02-07 22:28:04
+number:		3625
+average:	134 image/min
+
+# specialSpider.py
+specialSpider:
+pages:
+start time:	2017-02-08 23:42:52
+end time:	2017-02-09 09:10:49
+number:		8799
+average:	15 html/min
+images:
+start time:	2017-02-08 23:42:54
+end time:	2017-02-09 09:10:50
+number:		67447
+average:	118 image/min

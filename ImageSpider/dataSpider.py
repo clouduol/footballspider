@@ -1,6 +1,7 @@
 #! /usr/bin/python3
 # page url format: https://www.dongqiudi.com/data?competition=...&type=...
 #       competition=^\d+$ type=[team_rank | goal_rank | assist_rank]
+# 38 * 3 = 114 
 
 import pymysql
 import re
