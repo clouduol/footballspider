@@ -37,8 +37,7 @@ ImageSpider/dataSpider.py:
 get images from https://www.dongqiudi.com/data/
 
 ImageSpider/specialSpider.py:
-get images from https://www.dongqiudi.com/special/
-
+get images from https://www.dongqiudi.com/special/...
 ImageSpider/specialSpider.log:
 special spider log
 
