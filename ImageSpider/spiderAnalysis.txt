@@ -23,3 +23,16 @@ start time:	2017-02-08 23:42:54
 end time:	2017-02-09 09:10:50
 number:		67447
 average:	118 image/min
+
+# bulletinSpider.py
+bulletinSpider:
+pages:
+start time:	2017-02-10 00:09:43
+end time:	2017-02-10 09:32:43
+number:		17912
+average:	31 html/min
+images:
+start time:	2017-02-10 00:09:37
+end time:	2017-02-10 09:32:45
+number:		53216
+average:	94 image/min
