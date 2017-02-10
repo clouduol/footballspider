@@ -42,6 +42,12 @@ get images from https://www.dongqiudi.com/special/...
 ImageSpider/specialSpider.log:
 special spider log
 
+ImageSpider/bulletinSpider.py:
+get images from https://www.dongqiudi.com/?tab=1&page=...
+
+ImageSpider/bulletinSpider.log:
+bulletin spider log
+
 ImageSpider/spiderAnalysis.txt:
 analyze spider's efficiency
 
