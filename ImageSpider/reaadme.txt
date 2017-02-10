@@ -3,3 +3,4 @@ ATTENTION:
             
         The files include:ImageSpider/dataSpider.py,ImageSpider/specialSpider.py
 
+# Question: between 2017-02-10 09:32 and 2017-02-10 11:10, no html and image been stored; I didn't know what happened.
