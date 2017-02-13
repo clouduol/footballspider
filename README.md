@@ -55,6 +55,9 @@ analyze spider's efficiency
 urlretrieveDemo.py:
 retrieve remote resources and display the rate of progress
 
+pdfminerDemo.py
+extract text from local and remote pdf files
+
 # LINKs
 
 https://www.zhihu.com/question/20899988
