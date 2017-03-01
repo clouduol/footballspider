@@ -9,9 +9,9 @@ from email.mime.text import MIMEText
 subject = "Python Email Demo"
 message = " Hello: \n\nCongratulations, you are successful!"
 smtp_server = "smtp.qq.com"
-from_addr = "guoyunlong2009@qq.com"
-password = "kzknlhezuhwijiec"
-to_addr = "guoyl1814@126.com"
+from_addr = "***@qq.com"
+password = "Your password"
+to_addr = "Your destination"
 
 def sendMail(subject,body):
     global smtp_server
